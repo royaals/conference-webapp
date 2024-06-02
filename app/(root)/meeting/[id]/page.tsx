@@ -1,11 +1,21 @@
-import React from 'react'
+'use client';
 
-const Meeting = ({params}: {params: {id:string}}) => {
+import { useState } from 'react';
+import { useUser } from '@clerk/nextjs';
+
+import { useParams } from 'next/navigation';
+import { Loader } from 'lucide-react';
+
+
+
+const MeetingPage = () => {
+  
   return (
-    <div>
-      meeting page : {params.id}
-    </div>
-  )
-}
+    <main className="h-screen w-full">
+    
+    meeting-page
+    </main>
+  );
+};
 
-export default Meeting
+export default MeetingPage;
