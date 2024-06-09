@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nebula",
+  title: "Converse",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/images/logo.png",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/logo.svg",
+            logoImageUrl: "/images/logo.png",
           },
           variables: {
             colorText: "#fff",
