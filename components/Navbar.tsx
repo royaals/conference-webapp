@@ -7,7 +7,7 @@ import MobileNav from './MobileNav';
 const Navbar = () => {
   return (
     <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
-     <Link href="/" className="flex items-center gap-2" prefetch={false}>
+     <Link href="/home" className="flex items-center gap-2" prefetch={false}>
           <VideoIcon className="w-6 h-6 text-[#00b4d8]" />
           <span className="font-bold text-lg text-white max-sm:hidden">Converse</span>
         </Link>
