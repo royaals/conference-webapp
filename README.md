@@ -11,6 +11,7 @@ Converse is a video conferencing tool designed to provide users with secure, rea
 - **View Recorded Meetings**: Access recordings of past meetings for review or reference.
 - **Secure Real-time Functionality**: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
 
+  
 ## Technologies Used
 
 - Next.js
@@ -19,6 +20,11 @@ Converse is a video conferencing tool designed to provide users with secure, rea
 - getstream
 - shadcn
 - Tailwind CSS
+<div>
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+</div>
 
 ## Development Setup
 
