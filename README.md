@@ -17,7 +17,7 @@ Converse is a video conferencing tool designed to provide users with secure, rea
 - Next.js
 - TypeScript
 - Clerk
-- getstream
+- Stream
 - shadcn
 - Tailwind CSS
 <div>
