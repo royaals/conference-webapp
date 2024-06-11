@@ -1,4 +1,5 @@
 // @ts-nocheck
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Component() {
@@ -44,8 +45,8 @@ export default function Component() {
               </Link>
             </div>
           </div>
-          <img
-            src="/placeholder.svg"
+          <Image
+            src="/images/hero.png"
             width="600"
             height="400"
             alt="Hero Image"
@@ -75,17 +76,7 @@ export default function Component() {
       <footer className="bg-gray-800 py-6 text-sm text-gray-400">
         <div className="container max-w-6xl mx-auto flex justify-between items-center">
           <p>&copy; 2024 Converse. All rights reserved.</p>
-          <nav className="flex items-center gap-4">
-            <Link href="#" className="hover:text-gray-50 transition-colors" prefetch={false}>
-              Privacy
-            </Link>
-            <Link href="#" className="hover:text-gray-50 transition-colors" prefetch={false}>
-              Terms
-            </Link>
-            <Link href="#" className="hover:text-gray-50 transition-colors" prefetch={false}>
-              Contact
-            </Link>
-          </nav>
+         
         </div>
       </footer>
     </div>
