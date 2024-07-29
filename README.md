@@ -54,9 +54,3 @@ Converse is a video conferencing tool designed to provide users with secure, rea
    npm install
    ```
    
-3. Insert your credentials into the environment variables in the `docker-compose.yml` file.   
-
-4. Run the Docker Compose command to start the development server:
-   ```bash
-   docker-compose up --build
-   ```   
