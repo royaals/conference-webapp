@@ -20,6 +20,7 @@ Converse is a video conferencing tool designed to provide users with secure, rea
 - Stream
 - shadcn
 - Tailwind CSS
+- Kubernetes
 
 ## Development Setup
 
